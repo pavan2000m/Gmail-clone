@@ -1,0 +1,11 @@
+.navContents_container{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 0  10px;
+    cursor: pointer;
+}
+.navContents_container:hover{
+    color: black;
+    
+}

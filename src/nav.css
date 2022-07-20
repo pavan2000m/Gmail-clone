@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    /* background-color: azure; */
+}
+.nav_left{
+    display: flex;
+    position: sticky;
+    /* background-color: bisque; */
+    padding-right: 200px;
+    padding-left: 10px;
+}
+.nav_left > img{
+    padding: 20px 10px;
+    height: 60px;
+}
+.search_box{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding-left: 30px;
+    
+}
+.search_box > form{
+    display: flex;
+    width: 100%;
+    margin-top: -10px;
+}
+.search_box > form > input{
+    margin-left: -30px;
+    height: 40px;
+    width: 650px;
+    margin-left: 20px;
+    outline-width: 0;
+    border-radius: 7px;
+    background-color: rgba(245, 249, 252, 0.267);
+}
+.search_box > form > button{
+    display: none;
+   
+}
+.nav_right{
+    display: flex;
+    position: right;
+    padding-left: 200px;
+}
